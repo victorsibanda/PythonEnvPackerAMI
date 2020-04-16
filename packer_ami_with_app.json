@@ -42,7 +42,7 @@
   "provisioners" : [
     {
       "type": "chef-solo",
-      "cookbook_paths": ["./cookbooks"],
+      "cookbook_paths": ["Cookbooks"],
       "run_list" : ["PythonDevEnvCookbook::default"]
     },
     {
