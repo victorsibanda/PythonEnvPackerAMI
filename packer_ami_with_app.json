@@ -47,7 +47,7 @@
     },
     {
       "type": "file",
-      "source": "/../DevEnvChefVM/code",
+      "source": "../DevEnvChefVM/code",
       "destination": "/home/ubuntu/"
     }
   ]
