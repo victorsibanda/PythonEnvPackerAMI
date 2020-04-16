@@ -44,6 +44,11 @@
       "type": "chef-solo",
       "cookbook_paths": ["./cookbooks"],
       "run_list" : ["PythonDevEnvCookbook::default"]
+    },
+    {
+      "type": "file",
+      "source": "/DevEnvChefVM/code",
+      "destination": "/home/ubuntu/"
     }
   ]
 }
