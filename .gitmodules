@@ -1,0 +1,3 @@
+[submodule "DevEnvChefVM"]
+	path = DevEnvChefVM
+	url = https://github.com/victorsibanda/DevEnvChefVM
