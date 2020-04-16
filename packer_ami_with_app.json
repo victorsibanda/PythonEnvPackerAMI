@@ -42,7 +42,7 @@
   "provisioners" : [
     {
       "type": "chef-solo",
-      "execute_command": "{{if .Sudo}}sudo {{end}}chef-solo --chef-license accept-silent -c {{.ConfigPath}} -j /tmp/node.json",
+      "chef_license": "accept",
       "cookbook_paths": ["Cookbooks"],
       "run_list" : ["PythonDevEnvCookbook::default"]
     },
